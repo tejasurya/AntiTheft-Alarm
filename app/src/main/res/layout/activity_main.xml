@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF0"
+    android:padding="20sp"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ANTI THEFT ALARM"
+        android:gravity="center_horizontal"
+        android:paddingTop="25sp"
+        android:paddingBottom="20sp"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="INSTANT LOGIN"
+        android:id="@+id/login_instructions"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:freezesText="true"
+        android:hint="Enter password"
+        android:clickable="true"
+        android:singleLine="true"
+        android:inputType="numberPassword"
+        android:id="@+id/login_password"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTE:\nFor security purpose,\nYou need to enter the password every single time you use the app."
+        android:textSize="20sp"
+        android:layout_weight="0.31" />
+
+    <Button
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN AND ENABLE SENSOR"
+        android:onClick="enable"
+        android:id="@+id/button"
+        android:background="#FF0000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</LinearLayout>
