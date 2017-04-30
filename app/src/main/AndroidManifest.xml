@@ -8,14 +8,6 @@
         android:label="Anti Theft Alarm"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-        <uses-permission android:name="android.permission.INTERNET"/>
-        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-        <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-        <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION"/>
-        <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
-        <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE"/>
         <activity android:name=".MainActivity">
              <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
